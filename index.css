@@ -1,0 +1,7 @@
+.b-templates {
+  display: flex;
+}
+
+.b-templates__topic {
+  margin: 20px;
+}
