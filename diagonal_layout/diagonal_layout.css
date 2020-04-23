@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.b-diagonal-box {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 40vh 0;
+  min-height: 30vh;
+}
+
+.b-diagonal-box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(45deg, #654ea3, #eaafc8);
+  transform: skewY(-11deg);
+  z-index: -1;
+}
+
+.b-diagonal-box__content {
+  margin: 0 auto;
+  align-items: center;
+  color: aliceblue;
+  font-size: 2em;
+}
